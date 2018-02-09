@@ -1,0 +1,16 @@
+
+{
+  "name": "travis-pr1",
+  "repository": {
+    "type": "git"
+  },
+  "description": "Simple nodejs, travis",
+  "author": "me",
+  "version": "1.0.0",
+  "devDependencies": {
+    "jshint": "^2.8.0"
+  },
+  "scripts": {
+    "test": "./node_modules/jshint/bin/jshint test.js"
+  }
+}
