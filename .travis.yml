@@ -4,7 +4,9 @@ node_js:
 script:
   - npm install
   - npm test
-
+cache:
+  directories:
+    - "node_modules"
 #before_install:
   #- "curl -L https://raw.githubusercontent.com/arunoda/travis-ci-meteor-packages/master/configure.sh | /bin/sh"
 #before_script:
